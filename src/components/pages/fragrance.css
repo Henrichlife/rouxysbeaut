@@ -1,0 +1,15 @@
+#fragrance {
+    background: rgb(255, 255, 255);
+}
+
+.fragrance-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 640px) {
+    .fragrance-container {
+        flex-direction: column;
+    }
+} ;

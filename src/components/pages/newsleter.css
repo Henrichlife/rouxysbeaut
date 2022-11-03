@@ -1,0 +1,35 @@
+article {
+    background: rgb(2, 2, 2);
+    margin: 2rem 0;
+}
+
+.newsletter-content {
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.container-letter {
+    padding: 30px 0;
+}
+
+.newsletter-content input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.newsletter-content button {
+    padding: 8px 10px;
+    margin-left: 8px;
+    border-radius: 8px;
+    background: rgb(138, 102, 102);
+    color: white;
+}
+
+.newsletter-content button:hover {
+    background: rgb(120, 117, 45);
+}

@@ -1,0 +1,136 @@
+.discount-container {
+    background: url(/public/images/cleansers.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 310px;
+    background-attachment: fixed;
+}
+
+#discount {
+    margin: 30px 0;
+}
+
+.discount-sales {
+    background: rgba(0, 0, 0, 0.219);
+    height: 310px;
+}
+
+.discount-sales p {
+    align-items: center;
+    padding-top: 5rem;
+    color: rgb(252, 255, 254);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    justify-content: center;
+}
+
+p span {
+    display: block;
+    font-weight: 800;
+    color: rgb(254, 79, 79);
+}
+
+.cleanser-content {
+    display: flex;
+    padding: 5rem 5rem;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.cleanser-right {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.cleanser-right img {
+    margin-bottom: 25px;
+    height: 250px;
+}
+
+.cleanser-right h3,
+.cleanser-left h3 {
+    padding-top: 2rem;
+}
+
+.cleanser-right p,
+.cleanser-left p {
+    width: 80%;
+}
+
+.cleanser-left {
+    flex: 1;
+    padding-left: 19px;
+}
+
+.cleanser-left img {
+    border-radius: 8px;
+    height: 300px;
+    width: 500px;
+}
+
+@media (max-width: 998px) {
+    .cleanser-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cleanser-right p,
+    .cleanser-left p {
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+
+    .cleanser-left {
+        padding-left: 1px;
+    }
+
+    .cleanser-right img {
+        border-radius: 8px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .cleanser-left img {
+        border-radius: 8px;
+        height: 200px;
+        width: 90%;
+    }
+
+    .cleanser-right h3,
+    .cleanser-left h3 {
+        padding-top: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .discount-container {
+        background: url(/public/images/cleansers.jpg);
+        background-size: cover;
+        background-position: center top;
+        height: 310px;
+    }
+
+    .cleanser-left img {
+        border-radius: 8px;
+        height: 200px;
+        width: 370px;
+    }
+
+    .cleanser-right img {
+        border-radius: 8px;
+        height: 200px;
+        width: 340px;
+    }
+}
+
+@media (max-width: 750px) {
+    .discount-container {
+        background: url(/public/images/cleansers.jpg);
+        background-size: cover;
+        background-position: center top;
+        height: 310px;
+    }
+}

@@ -1,0 +1,18 @@
+.customer-container {
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+.customer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1400px) {
+    .customer-content {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

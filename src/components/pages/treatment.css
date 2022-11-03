@@ -1,0 +1,25 @@
+.treatment-content p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.treatment-content {
+    background: rgb(3, 3, 3);
+    padding: 15px;
+    color: #fff;
+}
+
+.treatment-container {
+    padding: 4rem;
+}
+
+@media (max-width: 650px) {
+    .treatment-container {
+        padding: 3rem 0;
+    }
+
+    .treatment-content {
+        padding: 15px;
+    }
+} ;

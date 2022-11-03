@@ -1,0 +1,11 @@
+.lotion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 680px) {
+    .lotion-content {
+        flex-direction: column;
+    }
+} ;

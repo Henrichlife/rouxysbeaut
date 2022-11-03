@@ -1,0 +1,11 @@
+.section-content h1 {
+    padding: 1rem 0.5rem;
+}
+
+@media (max-width: 680px) {
+    .section-content h1 {
+        position: absolute;
+        top: 25%;
+        left: 23%;
+    }
+}

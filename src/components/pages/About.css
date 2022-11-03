@@ -1,0 +1,9 @@
+.about-container .text {
+    font-size: 20px;
+    padding: 0 2%;
+    line-height: 200%;
+}
+
+.about-container {
+    padding: 3rem;
+}

@@ -1,0 +1,25 @@
+.makeup-content p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.makeup-content {
+    background: rgb(135, 255, 179);
+    padding: 15px;
+}
+
+.makeup-container {
+    padding: 4rem;
+}
+
+@media (max-width: 650px) {
+    .makeup-container {
+        padding: 3rem 0;
+    }
+
+    .makeup-content {
+        background: rgb(135, 255, 179);
+        padding: 15px;
+    }
+} ;

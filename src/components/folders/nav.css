@@ -1,0 +1,162 @@
+.navbar-content {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container {
+    color: rgb(36, 33, 33);
+    padding: 1rem 15px;
+    position: relative;
+    z-index: 999;
+    background: rgb(4, 3, 3);
+    box-shadow: 2px 2px 2px 2px rgb(130, 66, 98);
+}
+
+.content-right a {
+    font-size: 70%;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px 2px rgb(255, 172, 220);
+}
+
+.content-right span {
+    color: rgb(255, 157, 174);
+    font-weight: 600;
+}
+
+.hamburg {
+    display: none;
+}
+
+menu ul {
+    display: flex;
+    padding: 0 10px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+menu ul li {
+    padding: 5px 18px;
+}
+
+menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+menu ul li:hover > ul {
+    display: block;
+}
+
+menu ul li a:hover {
+    color: rgb(233, 150, 6);
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    display: block;
+
+    background: rgb(250, 255, 236);
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+#mobile-nav {
+    display: none;
+}
+
+.cart-mobile {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .mainLink {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+
+    .cart-mobile {
+        display: flex;
+        padding: 0 5px;
+    }
+
+    .mobile-nav ul {
+        flex-direction: column;
+    }
+
+    .hide-nav ul {
+        flex-direction: column;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 103%;
+        left: 0;
+        background: url(/public/images/different.jpg);
+        color: rgb(11, 8, 8);
+        background-position: center 10%;
+        width: 80%;
+        padding-bottom: 10px;
+        transition: 0.3s linear;
+    }
+
+    .hide-nav {
+        position: absolute;
+
+        top: 100%;
+        left: -1000px;
+        background: url(/public/images/different.jpg);
+        color: rgb(11, 8, 8);
+        width: 80%;
+        padding-bottom: 10px;
+        transition: 0.5s linear;
+    }
+
+    .mobile-nav li {
+        text-align: center;
+        padding: 15px 0px;
+        border-bottom: 1px solid rgb(21, 20, 20);
+        margin: 0px 1px;
+        width: 100%;
+        transition: 0.5s linear;
+        font-weight: 600;
+    }
+
+    .hide-nav li {
+        text-align: center;
+        padding: 15px 0px;
+        border-bottom: 1px solid rgb(21, 20, 20);
+        margin: 0px 1px;
+        width: 100%;
+        font-weight: 600;
+        transition: 0.5s linear;
+    }
+
+    .mobile-nav a {
+        color: rgb(67, 18, 18);
+        font-size: 20px;
+    }
+
+    .toggle-btn button {
+        background: transparent;
+        margin-left: 15px;
+        border: none;
+    }
+}

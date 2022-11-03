@@ -1,0 +1,9 @@
+.notfound-content {
+    text-align: center;
+    padding: 2rem;
+    background: rgb(142, 255, 142);
+}
+
+.notfound-container {
+    padding: 4rem;
+}

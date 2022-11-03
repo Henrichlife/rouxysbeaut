@@ -1,0 +1,111 @@
+table thead td {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 6.1rem;
+}
+
+table {
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table tr td {
+    padding-top: 15px;
+}
+
+#cart img {
+    height: 100px;
+}
+
+.cart-content {
+    overflow-x: auto;
+}
+
+.check-out-content {
+    padding: 2rem;
+}
+
+.cart-container {
+    margin: 4rem 0;
+}
+
+.check-out-container {
+    padding: 3rem 0;
+}
+
+.check-out-content h3 {
+    padding: 15px 0;
+}
+
+.check-out-content input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid grey;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.buttin {
+    padding: 8px 15px;
+    margin-left: 8px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(64, 62, 98);
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+#quantity {
+    width: 50px;
+}
+
+.checkout-items h3 {
+    padding-top: 15px;
+}
+
+.checkout-items {
+    width: 40%;
+}
+
+.checks-out {
+    justify-content: space-around;
+    display: flex;
+}
+
+.subtotal,
+.tot,
+.delivery {
+    justify-content: space-between;
+
+    display: flex;
+}
+
+.proceed {
+    text-align: center;
+}
+
+.proceed button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background: rgb(64, 62, 98);
+    color: azure;
+}
+
+@media (max-width: 700px) {
+    .checks-out {
+        flex-direction: column;
+    }
+
+    .checkout-items {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .check-out-content input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
